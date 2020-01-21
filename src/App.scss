@@ -1,0 +1,23 @@
+
+// Override default variables before the import
+$body-bg: #FFF;
+.capitalize{
+    text-transform: capitalize;
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.id {
+    color: white;
+    font-size: 10px;
+    margin-left: 30px;
+}
+.characterDetail {
+    background-color:"#000";
+    opacity: 0.5;
+    left: 15;
+    right: 0;
+    top:222
+}
+// Import Bootstrap and its default variables
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
